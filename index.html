@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script scr="js/jquery-3.2.1.js"></script>
+    <script scr="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+    <meta charset="utf-8">
+    <title>Sangi Bank</title>
+</head>
+
+<body>
+    <div class="conatiner-fluid">
+        <div class="jumbotron">
+            <center>
+                <h1>Sangi Bank</h1></center>
+        </div>
+        <div class="col-md-6 registration">
+            <form id="register">
+                <h1>Register New Account</h1>
+                <div class="form-group">
+                    <label for="accountName">Name</label><br>
+                    <input type="text" class="accname" id="accName" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="initialDeposit">Initial Deposit</label> <br>
+                    <input type="text" class="deposit" id="initDeposit">
+                </div>
+
+                <button type="submit" class="btn btn-inverse">Create Account</button>
+            </form>
+
+            <div id="balance">
+                <h2>Current Balance : </h2>
+
+            </div>
+        </div>
+        <div class="col-md-6 withdrawDeposit">
+            <h1>Deposit or Withdraw Funds</h1>
+            <form id="withdraw">
+                <div class="form-group">
+                    <label for="withdraw">Withdraw Amount</label><br>
+                    <input type="number" class="wAmount" id="wAmount"><br>
+                </div>
+
+                <button type="submit" class="btn btn-inverse">Withdraw</button> <br>
+            </form>
+            <form id="deposit">
+                <div class="form-group">
+                    <label for="deposit">Deposit Amount</label><br>
+                    <input type="number" class="dAmount" id="dAmount"><br>
+                </div>
+
+                <button type="submit" class="btn btn-inverse">Deposit</button> <br>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

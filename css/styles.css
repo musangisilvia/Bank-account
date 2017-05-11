@@ -1,0 +1,15 @@
+.jumbotron {
+    background-color: #9EB9D4;
+    font-size: 60pt;
+    color: #8E4585;
+}
+
+.jumbotron i {
+    display: inline;
+}
+
+body input {
+    border-radius: 4px;
+    width: 400px;
+    height: 30px;
+}
